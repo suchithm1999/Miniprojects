@@ -1,0 +1,176 @@
+body {
+  background-color: #b6c7ff;
+}
+
+.border {
+  position: absolute;
+  height: 716px;
+  width: 390px;
+  left: 19px;
+  top: 11px;
+  background: #00343d;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.output {
+  position: absolute;
+  grid-row: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 360px;
+  height: 200px;
+  left: 24px;
+  top: 15px;
+  font-size: 45px;
+  padding-inline-end: 20px;
+  font-weight: bold;
+  background: #e1efff;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.AC {
+  position: absolute;
+  width: 190px;
+  height: 80px;
+  left: 24px;
+  top: 230px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #00dec3;
+  border-radius: 30px;
+}
+
+#key {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #e1efff;
+  border-radius: 50px;
+}
+
+#operation {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #89c0ff;
+  border-radius: 30px;
+}
+
+.addition {
+  left: 324px;
+  top: 530px;
+}
+
+.substract {
+  left: 324px;
+  top: 430px;
+}
+
+.multiply {
+  left: 324px;
+  top: 330px;
+}
+
+.divide {
+  left: 324px;
+  top: 230px;
+}
+
+.modulo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 224px;
+  top: 230px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #89c0ff;
+  border-radius: 30px;
+}
+
+.zero {
+  left: 24px;
+  top: 630px;
+}
+
+.one {
+  left: 24px;
+  top: 530px;
+}
+
+.two {
+  left: 124px;
+  top: 530px;
+}
+
+.three {
+  left: 224px;
+  top: 530px;
+}
+
+.four {
+  left: 24px;
+  top: 430px;
+}
+
+.five {
+  left: 124px;
+  top: 430px;
+}
+
+.six {
+  left: 224px;
+  top: 430px;
+}
+
+.seven {
+  left: 24px;
+  top: 330px;
+}
+
+.eight {
+  left: 124px;
+  top: 330px;
+}
+
+.nine {
+  left: 224px;
+  top: 330px;
+}
+
+.float {
+  left: 124px;
+  top: 630px;
+}
+
+.del {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 224px;
+  top: 630px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #e1efff;
+  border-radius: 50px;
+}
+
+.equal {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 324px;
+  top: 630px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #89c0ff;
+  border-radius: 30px;
+}
